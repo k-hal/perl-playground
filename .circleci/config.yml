@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/perl-playground
     docker:
-      - image: perl:5.37
+      - image: perl:5.38
     steps:
       - checkout
       - run: perl -version
